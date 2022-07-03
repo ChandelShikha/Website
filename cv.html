@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    body{
+        margin:0;
+        
+    
+    } 
+    .main{
+        width:80%;
+        height:100%;
+        background-image: url(https://wallpapercave.com/wp/wp3507981.jpg);
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+        margin-left:20%;
+        margin-top:0; 
+    }
+    .menu{
+        width:20%;
+        height:100%;
+        margin-top:0; 
+    background-color: deepskyblue;
+        display: block;
+        text-align: center;
+        position:fixed; 
+    }
+    /* Style the sidenav links */
+    .sidenav a {
+        display: block;
+        color:red;
+        margin-top: 10%;
+        margin-bottom: 7%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        height:10%;
+        width:100%;    
+    }
+/* Change color on hover */
+    .sidenav a:hover {
+        background-color: white;
+        color: black;
+    }
+    .page{   
+        width:100%;
+        height:100vh;
+    }
+    h1{
+        text-align: center;
+        font-size: xxx-large;
+        margin-top:0;
+        font-style: italic;
+        font-family: 'Apple Chancery';
+        text-shadow: 0 0 3px #FF0000;
+    }
+    /*Column creation*/
+    .sidenav a.active {
+         background-color: #04AA6D;
+        color: white;
+    }
+    .column {
+        float: left;
+        width:30%;
+        height: fit-content;
+        margin-left: 1.2%;
+        margin-right: 1.2%;
+        border-style:groove;
+        border-color: black;
+        background-color:aliceblue;
+        font-size:large;
+    }
+    .column:hover{
+       transform:scale(1.05);
+    }
+    .column2{
+        float: left;
+        border-color:black;
+        margin-left:5%;
+        margin-right:5%;
+        font-size:larger;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .row:after {
+        content:"";
+        display: table;
+        clear: both;
+        padding-top: 10%;
+    }
+    .eduimage{
+        width:40%;
+        height:30%;
+        padding-left:30%;
+        padding-right:30%;
+    }
+    .myimage{
+        width:40%;
+        height:30%;
+    }
+    h2{
+        text-align:center;
+        font-size:xx-large;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom:5%;
+        padding-top:5%;
+        font-family:"Marker Felt" ;
+        text-decoration-line: overline underline;
+        text-decoration-style: wavy;
+    }
+    h3{
+        text-align:center;
+        font-size:x-large;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        font-family:'Diplomata SC', cursive;
+        text-shadow: 0 0 3px #FF0000;
+    }
+    p{
+        font-family:'Courgette', cursive;
+        font-size:larger;
+    }
+    li{
+        font-family:'Courgette', cursive;
+        font-size:larger;
+    }
+    span{
+        margin-left:20% ;
+    }
+    #Achievements{
+        text-align: center;
+        text-overflow: ellipsis;
+    }
+    #cogo{
+        text-align:center;
+        font-family:'Diplomata SC', cursive;
+        font-size: xx-large;
+        padding-left:5%;
+        text-shadow: 2px 2px 5px red;
+    }
+    .objective{
+        text-align:center;
+        font-family:'Diplomata SC', cursive;
+        font-size: xx-large;
+    }
+    .wordimage{
+        width:80%;
+        height:80%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+    .achieveimage{
+        width:70%;
+        height:70%;
+    }
+</style>
+<body>
+    <div>
+        <div class="menu">
+            <div class="sidenav">
+                <a href="#About">About</a>
+                <a href="#Education">Education</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Achievements">Achievements</a>
+                <a href="#Extra_Curriculum">Extra_Curriculum</a>
+            </div>
+            <div class="Contacts">
+                <h4>CONTACTS</h4>
+                <br>chandelshikha4@gmail.com<br>
+                <br>7977365366<br>
+                <br><a href="www.linkedin.com/in/shikha-c-668788109">linkedin</a><br>
+                <br><a href="https://github.com/Shikhachandel">GitHub</a><br>
+            </div>
+        </div>
+        <div class="main">
+            <div id="About" class="page">
+                <h1>SHIKHA CHANDEL<br></h1> 
+                <h1>ASSOCIATE SOFTWARE ENGINEER<br></h1>
+                <div class="row">
+                    <img class="column2 myimage" src="https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg">
+                    <div class="column2" id="cogo">Currently working<br> at <br><em>Cogoport!</em></div>
+                </div>
+                <div class="objective row">I believe in learning what I do not know and improvising in I do know!<br>Problem solving comes from finding one!</div>
+            </div>
+            <div id="Education" class="page">
+                <h2>EDUCATION</h2>
+                <img class="eduimage" src="http://clipground.com/images/science-world-clipart-3.png">
+                <div class="row"> 
+                <p class= "column" id="School"> 
+                    Until 2015<br>
+                    <a href="https://nationalenglishschool.com/our-schools/">National English High School</a><br>
+                    Maharashtra Board<br>
+                    <span>89%</span>
+                </p>
+                <p id="college" class="column">
+                    2016-2018<br>
+                    <a href="https://www.uniapply.com/school/rr-international-junior-and-senior-college-of-commerce-and-science-ic-colony-borivali-west-mumbai/?lv=gl">R.R. International college of commerce and science</a><br>
+                    Science stream<br>
+                    Maharashtra Board<br>
+                    <span>81.23%</span>
+                </p>
+                <p id="btech" class="column">
+                    2018-2022<br>
+                    <a href="https://www.umit.ac.in/admissions">Usha Mittal Institue of Technology</a><br>
+                    Computer Science and Technology<br>
+                    Shreemati Nathibai Damodar Thackersey University<br>
+                    <span>9</span>
+                </p>
+                </div>
+            </div>
+            <div class="page" id="Projects">
+                <div class="row">
+                <h2>PROJECTS</h2>
+                <div class="column">
+                <h3>Mini Project:</h3>
+                <p >
+                    Drowsiness Detection<br>
+                    Technology: Python,OpenCv,Haar Cascade files</p>
+                </div>
+                <div class="column">
+                <h3>Major Project:</h3>
+                <p>
+                    Stock Market Prediction Analysis<br>
+                    Technology: Python,Machine learning (Linear Regression,Support Vector Machine,Long short term Memory),Sentiment Analysis (Flair),Dash <br>
+                    Paper published: Stock Market Prediction Analysis in IRJET</p>
+                </div>
+                <div class="column">
+                <h3>College Projects:</h3>
+                <p>
+                    An app to detect Forest Fire using Machine Learning and streamlit<br>
+                    A C++ program for MOVIE TICKET BILLING<br>
+                    A DBMS project for Bus passenger information
+                </p>
+                </div>
+            </div> 
+            </div>
+            <div id="Skills" class="page" >
+                <h2>SKILLS</h2>
+                <img class="wordimage" src="https://drive.google.com/uc?id=1XM55y4lmCzn2c19tfjQ8JiYDjtm7PHdo" >
+            </div>
+            <div id="Achievements" class="page"> 
+                <h2>ACHEIVEMENTS</h2>
+                <p> Won prizes in technical events and non-technical events in fest conducted by CSI council at university<br>
+                    Won 99th rank in Code Clash of D2C Online Hackathon organized by National Institute of Technology (NIT), Manipur<br>
+                    Been part of student council for 2 and a half year and organized a cultural fest called "Arcane Illusion"<br>
+                    Been CR for first,second,sixth,sevent and eight semester<br>
+                    Conducted Digital Literacy Session and taught a child course related to digitalization<br>
+                </p>
+                <img class="achieveimage" src="https://drive.google.com/uc?id=1wXbJZ83pAqhwyNxjBOfpL2MIKLBePAoZ" alt="Open in new tab if not displaying">    
+            </div>
+            <div class="row page"  id="Extra_Curriculum">
+                <h2>EXTRA_CURRICULUM</h2>
+                <div class="column">    
+                <h3> Verzeo</h3>
+                    <p>
+                    Machine learning with Python<br>
+                        Mini project on EDA<br>
+                        Major project on Machine learning<br>
+                        DURATION:2 months
+                    </p>
+                </div>
+                <div class="column">
+                    <h3><a href="https://www.coursera.org/accomplishments">Coursera</a></h3>
+                    <p>
+                        <li>A guided project on JAVA to make a simple application</li><br>
+                        <li>A guided project to work with Wordpress</li><br>
+                        <li>Introduction to virtual reality</li><br>
+                        <li>Web Scrawling with Python</li><br>
+                        <li>Database with Python</li><br>
+                        
+                    </p>
+                </div>
+                <div class="column">
+                    <h3>Competitive Programming</h3>
+                    <p>
+                        <a href="https://www.hackerrank.com/chandelshikha4"> HackerRank</a><br>
+                        <a href="https://www.hackerearth.com/@shikha389"> HackerEarth</a><br>
+                    </p>
+                </div>
+            </div>   
+        </div>
+    </div>
+</body>
+</html>
